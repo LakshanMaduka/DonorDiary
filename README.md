@@ -1,5 +1,7 @@
 # DonerDiary
-<a href="https://im.ge/i/vWakJL"><img src="https://i.im.ge/2025/05/17/vWakJL.Track-your-blood-donations-earn-medals-and-locate-blood-banks-with-the-Blood-Donor-History-App.png" alt="Track your blood donations earn medals and locate blood banks with the Blood Donor History App" border="0" /></a>
+<p align="center">
+<img src="https://github.com/LakshanMaduka/DonorDiary/blob/f428b6d2d167f09291bf01f896bea593d37adcae/Track%20your%20blood%20donations%2C%20earn%20medals%2C%20and%20locate%20blood%20banks%20with%20the%20Blood%20Donor%20History%20App.png" alt="name"/>
+<p/>
 
 <h4 align="center">Best practices to gain maximum engagements, contributions, and acknowledgements(like stars, sponsors)</h4>
 
