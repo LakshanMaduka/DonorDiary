@@ -13,11 +13,6 @@
 # 👋 Introducing `DonorDiary`
 `DonorDiary`  is an open-source mobile application built with Flutter, Riverpod, and a NodeJS backend (MVVM architecture). It helps blood donors track their donation history, earn medals (bronze, silver, gold) based on donation count, locate blood banks and mobile collection centers via maps.
 
-# 🚀 Demo
-Here is a quick demo of the app. We hope you enjoy it.
-
-
-Liked it? Please give a ⭐️ to <b>Donor Diary</b>.
 
 # 💻 DonorDiary Repo
 Please access `model-repo` using the URL:
@@ -45,40 +40,52 @@ git clone https://github.com/LakshanMaduka/DonorDiary.git
 ```
 ## 2.1 Setup client project
 
-2. Change the working directory
+For this project, I have used Flutter 3.24.5 version.
+
+ Change the working directory.
 
 ```bash
 cd DonorDiary
 ```
 
-3. Install dependencies
+ Install Flutter dependencies
 
 ```bash
-npm install # or, yarn install
+flutter pub get
 ```
-
-4. Create `.env` file in root and add your variables
+You need to set up Firebase for this project. Use Firebase CLI to set up Firebase. Make sure to turn on the storage service in the Firebase Project.
 
 ```bash
-KEY=VALUE
+1. Install Firebase CLI: `npm install -g firebase-tools`
+2. Authenticate: `firebase login`
+3. Generate config: `flutterfire configure`
 ```
 
-5. Run the app
+Run the app
 
 ```bash
-npm run dev # or, yarn dev
+flutter run
 ```
+
+## 2.2 Setup Backend
+
+Change the work directory to the server.
+
+```bash
+npm install
+```
+Then create .env in the project directory according to .env.example file.
+
+run backend
+
+```bash
+node src/index.js 
+```
+
+You can use `ngrok` 
+ngrok creates a secure tunnel to your local NodeJS backend (e.g., running on localhost:3000), providing a public URL (e.g., https://abc123.ngrok.io). Then, paste this public URL in client/lib/constants/api_endpoints.dart file.
 
 That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
-
-# 🍔 Built With
-- [Technology 1](https://tapasadhikary.com)
-- [Technology 2](https://tapasadhikary.com)
-- [Technology 3](https://tapasadhikary.com)
-- [Technology 4](https://tapasadhikary.com)
-- [Technology 5](https://tapasadhikary.com)
-- [Technology 6](https://tapasadhikary.com)
-- [Technology 7](https://tapasadhikary.com)
 
 # 🛡️ License
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
@@ -86,47 +93,19 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 # 🦄 Upcoming Features
 `model-repo` has all the potentials to grow further. Here are some of the upcoming features planned(not in any order),
 
-- ✔️ Feature Request 1.
-- ✔️ Feature Request 2.
-- ✔️ Feature Request 3.
-- ✔️ Feature Request 4.
-- ✔️ Feature Request 5.
-- ✔️ Feature Request 6.
-- ✔️ Feature Request 7.
-- ✔️ Feature Request 8.
-- ✔️ Feature Request 9.
-- ✔️ Feature Request 10.
-- ✔️ Feature Request 11.
-
-If you find something is missing, `model-repo` is listening. Please create a feature request [from here](https://github.com/atapas/model-repo/issues/new/choose).
-
-# 🏃‍♀️ Deploy
-
-<a href="https://vercel.com/new/project?template=https://github.com/atapas/model-repo">
-<img src="https://vercel.com/button" height="37.5px" />
-</a>
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/atapas/model-repo">
-<img src="https://www.netlify.com/img/deploy/button.svg" height="37.5px" />
-</a>
+- ✔️ Blood request functionality.
+- ✔️ Notification service.
+- ✔️ Map direction to the blood bank.
+  
 
 
-# 🤝 Contributing to `model-repo`
+If you find something is missing, `DonerDiary` is listening. Please create a feature request [from here](https://github.com/LakshanMaduka/DonorDiary/issues).
+
+
+# 🤝 Contributing to `DonorDiary`
 Any kind of positive contribution is welcome! Please help us to grow by contributing to the project.
 
-If you wish to contribute, you can work on any features [listed here](https://github.com/atapas/model-repo#-upcoming-features) or create one on your own. After adding your code, please send us a Pull Request.
+If you wish to contribute, you can work on any features [listed here](https://github.com/LakshanMaduka/DonorDiary#-upcoming-features) or create one on your own. After adding your code, please send us a Pull Request.
 
 > Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
-# 🙏 Support
-
-We all need support and motivation. `model-repo` is not an exception. If you found the app helpful, consider supporting us with a coffee.
-
-<a href="https://www.buymeacoffee.com/greenroots">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50px">
-</a>
-
----
-
-<h3 align="center">
-A ⭐️ to <b>Model Repo</b> is must as a motivation booster.
-</h3>
