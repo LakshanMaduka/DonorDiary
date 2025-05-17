@@ -65,8 +65,8 @@ Provide specific instructions for reviewers to test your changes. Include:
 Example:
 > 1. Clone the repo and checkout this branch.
 > 2. Run `flutter pub get` in the `frontend` folder.
-> 3. Run `npm install` and `node server.js` in the `backend` folder.
-> 4. Start ngrok: `ngrok http 3000` and update `lib/config.dart` with the ngrok URL.
+> 3. Run `npm install` and `node index.js` in the `backend` folder.
+> 4. Start ngrok: `ngrok http 3000` and update `lib/core/constants/api_endpoints.dart` with the ngrok URL.
 > 5. Run `flutter run` and verify the donation history updates in the profile screen.
 
 ---
