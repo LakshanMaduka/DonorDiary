@@ -9,66 +9,46 @@
 <a href="[https://github.com/LakshanMaduka/DornerDiary/LICENSE" target="blank">
 <img src="https://img.shields.io/github/license/atapas/model-repo?style=flat-square" alt="tryshape licence" />
 </a>
-<a href="https://github.com/atapas/model-repo/fork" target="blank">
-<img src="https://img.shields.io/github/forks/atapas/model-repo?style=flat-square" alt="tryshape forks"/>
-</a>
-<a href="https://github.com/atapas/model-repo/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/atapas/model-repo?style=flat-square" alt="tryshape stars"/>
-</a>
-<a href="https://github.com/atapas/model-repo/issues" target="blank">
-<img src="https://img.shields.io/github/issues/atapas/model-repo?style=flat-square" alt="tryshape issues"/>
-</a>
-<a href="https://github.com/atapas/model-repo/pulls" target="blank">
-<img src="https://img.shields.io/github/issues-pr/atapas/model-repo?style=flat-square" alt="tryshape pull-requests"/>
-</a>
-<a href="https://twitter.com/intent/tweet?text=👋%20Check%20this%20amazing%20repo%20https://github.com/atapas/model-repo,%20created%20by%20@tapasadhikary%20and%20friends%0A%0A%23DEVCommunity%20%23100DaysOfCode"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fatapas%2Fmodel-repo"></a>
 
-<p align="center">
-    <a href="https://github.com/TryShape/tryshape/issues/new/choose">Report Bug</a>
-    ·
-    <a href="https://github.com/TryShape/tryshape/issues/new/choose">Request Feature</a>
-</p>
-
-# 👋 Introducing `Model Repo`
-`model-repo` is a public repository contains the best practices about creating and maintainining repositories to gain maximum engagements, contributions, and acknowledgements(like stars, sponsors)
+# 👋 Introducing `DonorDiary`
+`DonorDiary`  is an open-source mobile application built with Flutter, Riverpod, and a NodeJS backend (MVVM architecture). It helps blood donors track their donation history, earn medals (bronze, silver, gold) based on donation count, locate blood banks and mobile collection centers via maps.
 
 # 🚀 Demo
 Here is a quick demo of the app. We hope you enjoy it.
 
-> [The Demo Link](https://tapasadhikary.com)
 
-Liked it? Please give a ⭐️ to <b>Model Repo</b>.
+Liked it? Please give a ⭐️ to <b>Donor Diary</b>.
 
-### Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
-
-[![Stargazers repo roster for @atapas/model-repo](https://reporoster.com/stars/atapas/model-repo)](https://github.com/atapas/model-repo/stargazers)
-
-# 💻 Use Model Repo
+# 💻 DonorDiary Repo
 Please access `model-repo` using the URL:
 
-> https://github.com/atapas/model-repo
+> https://github.com/LakshanMaduka/DornerDiary
 
 # 🔥 Features
-`model-repo` comes with a bundle of features already. You can do the followings with it,
+`DonerDiary` comes with a bundle of features already. You can do the followings with it,
 
-## 🔢 Feature 1
- - Description.
+✅ **Donation Tracking:** Log donation history and see days since last donation.
 
-## 🏗️ Feature 2
-- Description
+✅ **Medal Rewards:** Earn bronze, silver, or gold medals for donation milestones.
 
-# 🏗️ How to Set up `model-repo` for Development?
+✅ **Blood Bank Locator:** View nearby blood banks and mobile centers on interactive maps.
 
+✅ **Mobile blood donation schedule:** Users can see the scheduled mobile blood donation campaigns for the upcoming two weeks.
+
+✅ **Cross-Platform:** Runs on Android and iOS with a responsive Flutter UI.
+
+# 🛠️ How to Set up `DonerDiary` for Development?
 1. Clone the repository
 
 ```bash
-git clone https://github.com/atapas/model-repo.git
+git clone https://github.com/LakshanMaduka/DonorDiary.git
 ```
+## 2.1 Setup client project
 
 2. Change the working directory
 
 ```bash
-cd model-repo
+cd DonorDiary
 ```
 
 3. Install dependencies
