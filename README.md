@@ -7,7 +7,7 @@
 
 <p align="center">
 <a href="[https://github.com/LakshanMaduka/DornerDiary/LICENSE" target="blank">
-<img src="https://img.shields.io/github/license/atapas/model-repo?style=flat-square" alt="tryshape licence" />
+<img src="https://img.shields.io/github/license/atapas/DonorDiary?style=flat-square" alt="tryshape licence" />
 </a>
 
 # 👋 Introducing `DonorDiary`
@@ -15,7 +15,7 @@
 
 
 # 💻 DonorDiary Repo
-Please access `model-repo` using the URL:
+Please access `DonorDiary` using the URL:
 
 > https://github.com/LakshanMaduka/DornerDiary
 
@@ -91,7 +91,7 @@ That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 # 🦄 Upcoming Features
-`model-repo` has all the potentials to grow further. Here are some of the upcoming features planned(not in any order),
+`DonorDiary` has all the potentials to grow further. Here are some of the upcoming features planned(not in any order),
 
 - ✔️ Blood request functionality.
 - ✔️ Notification service.
