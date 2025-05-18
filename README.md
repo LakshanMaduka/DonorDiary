@@ -12,7 +12,7 @@
 </a>
 
 # 👋 Introducing `DonorDiary`
-`DonorDiary`  is an open-source mobile application built with Flutter, Riverpod, and a NodeJS backend (MVVM architecture). It helps blood donors track their donation history, earn medals (bronze, silver, gold) based on donation count, locate blood banks and mobile collection centers via maps.
+`DonorDiary`  is an open-source mobile application built with Flutter, Riverpod, and a NodeJS backend. It helps blood donors track their donation history, earn medals (bronze, silver, gold) based on donation count, locate blood banks and mobile collection centers via maps.
 
 
 # 💻 DonorDiary Repo
