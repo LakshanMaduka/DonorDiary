@@ -7,7 +7,8 @@
 
 <p align="center">
 <a href="[https://github.com/LakshanMaduka/DornerDiary/LICENSE" target="blank">
-<img src="https://img.shields.io/github/license/atapas/DonorDiary?style=flat-square" alt="tryshape licence" />
+<img alt="GitHub License" src="https://img.shields.io/github/license/LakshanMaduka/DonorDiary">
+
 </a>
 
 # 👋 Introducing `DonorDiary`
